@@ -1,0 +1,34 @@
+function main() {
+  const componentHeader = document.querySelector(".component-header");
+  componenteHeader(componentHeader);
+
+  const componentCard = document.querySelector(".component-card");
+  componenteCard(componentCard);
+
+  const componentForm = document.querySelector(".component-form");
+  componenteForm(componentForm);
+
+  const componentFooter = document.querySelector(".component-footer");
+  componenteFooter(componentFooter);
+
+  // const componentBg = document.querySelector(".component-bg");
+  // componenteBg(componentBg);
+
+  // Botón del header que abre y cierra la ventana desde la hamburguesa
+
+  const botonAbreVentanaEl = document.querySelector(".abre-ventana");
+  const botonCierraVentanaEl = document.querySelector(
+    ".ventana__cierra-ventana"
+  );
+  const ventanaEl = document.querySelector(".ventana");
+
+  botonAbreVentanaEl.addEventListener("click", () => {
+    ventanaEl.style.display = "inherit";
+  });
+
+  botonCierraVentanaEl.addEventListener("click", () => {
+    ventanaEl.style.display = "";
+  });
+}
+
+main();
