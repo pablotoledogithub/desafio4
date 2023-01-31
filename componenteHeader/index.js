@@ -6,9 +6,9 @@ function componenteHeader(el) {
     <img src="./imegenes/logo.png" alt="logo" />
   </div>
  <div class="home__hamburg-desplegada">
-    <a class="home__portfolio">Portfolio</a>
-    <a class="home__servicios">Servicios</a>
-    <a class="home__contacto">Contacto</a>
+    <a href="./portfolio.html" class="home__portfolio">Portfolio</a>
+    <a href="./servicios.html" class="home__servicios">Servicios</a>
+    <a href="./contacto.html" class="home__contacto">Contacto</a>
   </div>
   <div class="ventana-hamburguesa">
   <button class="abre-ventana">&#9776;</button>
