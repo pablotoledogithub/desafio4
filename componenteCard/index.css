@@ -4,6 +4,7 @@
     font-weight: 700;
     color: #eeeeee;
     text-align: center;
+    
 }
 
 .home__container-madre{
@@ -26,7 +27,7 @@
 .home__cont-1,.home__cont-2,.home__cont-3{
 width: 324px;
 height: 525px;
-background-image: url('./imegenes/alimentogato.png');
+background-image: url('../imegenes/alimentogato.png');
 background-position: center;
 background:rgba(43, 255, 0, 0.241);
 border-radius: 15px;
@@ -41,15 +42,18 @@ border-radius: 15px;
 }
 
 .home__compu1{
-    padding-left: 60px;
+    padding-left: 10px;
     padding-top: 30px;
+    object-fit: cover;
 }
 .home__compu2{
     padding-left: 60px;
     padding-top: 20px;
+    object-fit: cover;
 }
 .home__compu3{
     padding-top: 40px; 
+    object-fit: cover;
 }
 
 .home__seccion-tres{
@@ -66,9 +70,4 @@ border-radius: 15px;
     }
 }
 
-.home__seccion-tres-title{
-font-size: 42px;
-font:700;
-text-align: center;
-padding-top: 84px;
-}
+

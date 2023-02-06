@@ -1,0 +1,9 @@
+Tareas y dudas
+
+Quitar la 4ta card.
+
+Las imágenes de las card son las mismas y deberían tener 1 diferente.
+
+En portfolio y servicio: la sección Bienvenida e info de las card deberían ser diferentes. Para eso tengo que seguir cargando contenido a contentful y seguir iterando hasta pegarle a la info que quiero?
+
+Cuando se da el cambio a responsive el logo en la home desaparece por un momento y lugo vuelve; y el contacto, servicio y portfolio queda descentrado (sale de la caja) por un momento.

@@ -2,6 +2,9 @@ function main() {
   const componentHeader = document.querySelector(".component-header");
   componenteHeader(componentHeader);
 
+  const componentBienvenida = document.querySelector(".component-bienvenida");
+  componenteBienvenida(componentBienvenida);
+
   const componentCard = document.querySelector(".component-card");
   componenteCard(componentCard);
 
@@ -28,6 +31,14 @@ function main() {
 
   botonCierraVentanaEl.addEventListener("click", () => {
     ventanaEl.style.display = "";
+  });
+
+  // data del contentful //
+
+  getWeb().then(function (works) {
+    for (const w of works) {
+      addWeb(w);
+    }
   });
 }
 

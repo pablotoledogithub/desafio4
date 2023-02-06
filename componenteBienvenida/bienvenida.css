@@ -1,0 +1,47 @@
+.home__seccion-uno{
+    min-width: 375px;
+    height: 790px;
+    background-color: #13171C;
+    text-align: center;
+ }
+ @media (min-width:960px){
+    .home__seccion-uno{
+        display: flex;
+        }
+ }
+
+ .home__tittle{
+    width: 288px;
+    font-size: 60px;
+    font-weight: 700;
+padding-top: 70px;
+margin: 0 auto;
+text-align: center;
+ }
+
+ @media (min-width:960px){
+    .home__tittle{
+        text-align:left;
+        width: auto;
+        font-size: 96px;
+        padding-top: 220px;
+    }
+ }
+
+ h1{color: #eeeeee;}
+ span{color:rgb(37, 200, 0)}
+
+ 
+ .home__gato{
+    width: 219px;
+    height: 235px;
+  margin: 0 auto;
+  padding-top: 80px;
+ }
+ @media (min-width:960px){
+    .home__gato{
+        width: 353px;
+        height: 340px;
+        padding-top: 180px;
+    }
+ }

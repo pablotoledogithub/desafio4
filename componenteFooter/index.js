@@ -5,28 +5,34 @@ function componenteFooter(el) {
     <img src="./imegenes/logo.png" alt="mi logo" />
   </div>
   <div class="home__contact">
-    <div class="home">
-      <img src="./imegenes/home1.png" alt="home" />
+  <a href="./index.html">   
+  <div class="home">
+     <img src="./imegenes/home1.png" alt="home" />
       <label class="home__text-home" for="">Home</label>
     </div>
+    </a>
+    <a href="./servicios.html"> 
     <div class="servicios">
       <img src="./imegenes/contacto.png" alt="servicios" />
       <label class="home__text-serv" for="">Servicios</label>
     </div>
+    </a>
+    <a href="./contacto.html"> 
     <div class="contacto">
       <img src="./imegenes/telefono.png" alt="" />
       <label class="home__text-contact" for="">Contacto</label>
     </div>
+    </a>
   </div>
   <div class="home__redes">
     <div class="linkedin">
-      <img src="./imegenes/linkedin.png" alt="" />
+      <a href="https://www.linkedin.com/in/pablo-toledo-059908205/"> <img src="./imegenes/linkedin.png" alt="" /></a>
     </div>
     <div class="twitter">
-      <img src="./imegenes/twitter2.png" alt="" />
+     <a href="https://twitter.com/Pablotoledo8"> <img src="./imegenes/twitter2.png" alt="" /></a>
     </div>
     <div class="github">
-      <img src="./imegenes/github1.png" alt="" />
+    <a href="https://github.com/pablotoledogithub"><img src="./imegenes/github1.png" alt="" /> </a>
     </div>
   </div>
   <div class="home__copiright">

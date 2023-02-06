@@ -1,3 +1,4 @@
+
 .home__cont-header{
     background-color: #13171C;
     min-width: 375px;
@@ -10,21 +11,17 @@
 @media (min-width:960px){
     .home__cont-header{
         justify-content: space-between;
-        margin: 0 auto;
-       
-    
     }
 }
 
 .home__logo{
-    width: 100px;
+   width: 100px;
     height: 114px;
     padding-left: 30px;
     padding-top: 25px;
     justify-content: left;
-    
-   
- }
+}
+
 
  .home__hamburg-desplegada{
     display: none;
