@@ -14,9 +14,6 @@ function main() {
   const componentFooter = document.querySelector(".component-footer");
   componenteFooter(componentFooter);
 
-  // const componentBg = document.querySelector(".component-bg");
-  // componenteBg(componentBg);
-
   // Botón del header que abre y cierra la ventana desde la hamburguesa
 
   const botonAbreVentanaEl = document.querySelector(".abre-ventana");

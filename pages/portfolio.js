@@ -7,6 +7,7 @@ function addWeb(params = {}) {
   templateCard.content.querySelector(".home__card-parrafo").textContent =
     params.description;
   templateCard.content.querySelector(".home__compu1").src = params.image;
+  templateCard.content.querySelector(".home__card-link").href = params.url;
 
   const clone = document.importNode(templateCard.content, true);
   containerCard.appendChild(clone);
@@ -26,6 +27,7 @@ function getWeb() {
           title: item.fields.titulo,
           description: item.fields.descripcion.content[0].content[0].value,
           image: data.includes.Asset[1].fields.file.url,
+          url: item.fields.url,
         };
       });
       return fieldscollections;

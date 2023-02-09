@@ -26,7 +26,6 @@ function getWeb() {
           title: item.fields.titulo,
           description: item.fields.descripcion,
           image: data.includes.Asset[0].fields.file.url,
-          // tengo que quitar la 4ta card //
         };
       });
       return fieldscollections;
@@ -66,6 +65,7 @@ function componenteCard(el) {
     />
     <h3 class="home__card-title"></h3>
     <p class="home__card-parrafo"></p>
+    <a href="https://github.com/pablotoledogithub" class="home__card-link">Ver más</a>
     
   </div>
  </template>

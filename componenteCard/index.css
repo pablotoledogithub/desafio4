@@ -72,4 +72,9 @@ border-radius: 15px;
     }
 }
 
-
+.home__card-link{
+    text-align: right;
+    display: block;
+    margin-right: 20px;
+    margin-top: 40px;
+}
