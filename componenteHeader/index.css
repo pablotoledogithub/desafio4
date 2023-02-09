@@ -3,8 +3,9 @@
     background-color: #13171C;
     min-width: 375px;
     height: 114px;
-    display: flex;
+    display:flex;
     justify-content: space-between;
+
     
     
 }
@@ -15,7 +16,7 @@
 }
 
 .home__logo{
-   width: 100px;
+  width: 100px;
     height: 114px;
     padding-left: 30px;
     padding-top: 25px;
@@ -24,16 +25,27 @@
 
 
  .home__hamburg-desplegada{
+    
     display: none;
+    position:absolute;
+    top: 45px;
+left: 0;
+right: 100px;
+
+
+    
     
  }
 
  @media (min-width:960px){
     .home__hamburg-desplegada {
         display: flex;
-        align-items: center;
+        flex-direction: row;
+        align-items:center;
+        justify-content:right;
         gap: 60px;
-        padding-left: 600px;
+        
+       /* Este margin left achica el logo */
         
         
      }

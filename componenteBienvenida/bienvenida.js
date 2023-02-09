@@ -12,8 +12,6 @@ function getWeb() {
           title: item.fields.titulo,
           description: item.fields.descripcion,
           image: data.includes.Asset[1].fields.file.url,
-
-          // tengo que quitar la 4ta card //
         };
       });
 

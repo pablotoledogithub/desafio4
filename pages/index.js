@@ -35,6 +35,12 @@ function main() {
 
   // data del contentful //
 
+  // getWeb().then(function (works) {
+  //   for (const w of works) {
+  //     addWeb(w);
+  //   }
+  // });
+
   getWeb().then(function (works) {
     for (const w of works) {
       addWeb(w);

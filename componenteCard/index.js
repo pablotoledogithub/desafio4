@@ -25,27 +25,36 @@ function getWeb() {
         return {
           title: item.fields.titulo,
           description: item.fields.descripcion,
-          image: data.includes.Asset[1].fields.file.url,
-
+          image: data.includes.Asset[0].fields.file.url,
           // tengo que quitar la 4ta card //
         };
       });
-
       return fieldscollections;
     });
-  // .then((data) => {
-  //   const fieldEl = data.items.filter((item) => {
-  //     return fieldEl.lenght[0];
-  //   });
-
-  // });
 }
+
+// función para que los asset coinciddan con los Id
+
+// function getContentWithAssets(content) {
+//   const assets = content.includes.Asset;
+
+//   return content.items.map((item) => {
+//     const asset = assets.find(
+//       (assetItem) => assetItem.sys.id === item.fields.imagen.sys.id
+//     );
+
+//     return {
+//       itemFields: item.fields,
+//       assetsFields: asset.fields,
+//     };
+//   });
+// }
 
 function componenteCard(el) {
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `
   <section class="home__seccion-tres">
-  <h2 class="home__seccion-tres-title"> Mis <span> servicios</span></h2>
+  <h2 class="home__seccion-tres-title"> Mis <span> servicios </span></h2>
   <div class="home__container-madre">
   
   <template id="cards">
@@ -57,33 +66,12 @@ function componenteCard(el) {
     />
     <h3 class="home__card-title"></h3>
     <p class="home__card-parrafo"></p>
+    
   </div>
  </template>
 </div>
  </section>
  `;
-  //  <div class="home__cont-2">
-  //     <img
-  //       src="./imegenes/compuverde.png"
-  //       alt="compu vintage"
-  //       class="home__compu2"
-  //     />
-  //     <h3 class="home__card-title">Animaciones para web</h3>
-  //     <p class="home__card-parrafo">
-  //       Animaciones personalizadas con CSS , JS y Frameworks. Lorem ipsum
-  //       dolor sit amet, consectetur adipiscing elit. Aenean lobortis posuere
-  //       tristique.
-  //     </p>
-  //   </div>
-  //   <div class="home__cont-3">
-  //     <img src="./imegenes/compuapp.png" alt="" class="home__compu3" />
-  //     <h3 class="home__card-title">Desarrollo de apps</h3>
-  //     <p class="home__card-parrafo">
-  //       Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
-  //       adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
-  //       vehicula velit. Aenean lobortis posuere tristique.
-  //     </p>
-  //   </div>
-  //   </div>
+
   el.appendChild(componentEl);
 }

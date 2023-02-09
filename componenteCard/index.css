@@ -44,7 +44,9 @@ border-radius: 15px;
 .home__compu1{
     padding-left: 10px;
     padding-top: 30px;
-    object-fit: cover;
+    object-fit:cover;
+    display: block;
+    margin: auto;
 }
 .home__compu2{
     padding-left: 60px;

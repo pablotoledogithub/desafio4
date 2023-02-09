@@ -69,7 +69,7 @@
     height: 59px;
     background-color: #393E4680;
     border:none;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 @media (min-width:960px){
     .home__input-name{
@@ -88,7 +88,7 @@
     height: 59px; 
     background-color: #393E4680; 
     border:none;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 @media (min-width:960px){
     .home__input-mail{
@@ -109,7 +109,8 @@
     height: 280px;
     background-color: #393E4680;
     border:none;
-    border-radius: 15px;
+    border-radius: 8px;
+    
 }
 @media (min-width:960px){
     .home__textarea{
@@ -117,7 +118,6 @@
         height: 280px;
     }
 }
-
 
 .home__content-button{
     width: 313px;

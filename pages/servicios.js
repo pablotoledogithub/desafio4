@@ -13,5 +13,11 @@ function main() {
 
   const componentFooter = document.querySelector(".component-footer");
   componenteFooter(componentFooter);
+
+  getWeb().then(function (works) {
+    for (const w of works) {
+      addWeb(w);
+    }
+  });
 }
 main();
