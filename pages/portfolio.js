@@ -50,6 +50,24 @@ function main() {
   const componentFooter = document.querySelector(".component-footer");
   componenteFooter(componentFooter);
 
+  document.getElementsByClassName(
+    "home__seccion-tres-title"
+  )[0].firstElementChild.innerHTML = "trabajos";
+
+  const botonAbreVentanaEl = document.querySelector(".abre-ventana");
+  const botonCierraVentanaEl = document.querySelector(
+    ".ventana__cierra-ventana"
+  );
+  const ventanaEl = document.querySelector(".ventana");
+
+  botonAbreVentanaEl.addEventListener("click", () => {
+    ventanaEl.style.display = "inherit";
+  });
+
+  botonCierraVentanaEl.addEventListener("click", () => {
+    ventanaEl.style.display = "";
+  });
+
   getWeb().then(function (works) {
     for (const w of works) {
       addWeb(w);

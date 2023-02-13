@@ -2,7 +2,7 @@ function componenteFooter(el) {
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `<section class="home__seccion-footer">
   <div class="home__footer-logo">
-    <img src="./imegenes/logo.png" alt="mi logo" />
+   <a href="./index.html"> <img src="./imegenes/logo.png" alt="mi logo" /></a>
   </div>
   <div class="home__contact">
   <a href="./index.html">   

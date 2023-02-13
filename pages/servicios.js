@@ -14,6 +14,20 @@ function main() {
   const componentFooter = document.querySelector(".component-footer");
   componenteFooter(componentFooter);
 
+  const botonAbreVentanaEl = document.querySelector(".abre-ventana");
+  const botonCierraVentanaEl = document.querySelector(
+    ".ventana__cierra-ventana"
+  );
+  const ventanaEl = document.querySelector(".ventana");
+
+  botonAbreVentanaEl.addEventListener("click", () => {
+    ventanaEl.style.display = "inherit";
+  });
+
+  botonCierraVentanaEl.addEventListener("click", () => {
+    ventanaEl.style.display = "";
+  });
+
   getWeb().then(function (works) {
     for (const w of works) {
       addWeb(w);

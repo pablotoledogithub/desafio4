@@ -21,6 +21,7 @@
     padding-left: 30px;
     padding-top: 25px;
     justify-content: left;
+ 
 }
 
 
@@ -29,8 +30,9 @@
     display: none;
     position:absolute;
     top: 45px;
-left: 0;
+left: 100px;
 right: 100px;
+padding-left: 100px;
 
 
     

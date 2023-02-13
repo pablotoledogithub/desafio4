@@ -3,7 +3,7 @@ function componenteHeader(el) {
   componentEl.innerHTML = ` 
   <header class="home__cont-header">
   <div class="home__logo">
-    <img src="./imegenes/logo.png" alt="logo" />
+   <a href="./index.html"> <img src="./imegenes/logo.png" alt="mi logo" /></a>
   </div>
  <div class="home__hamburg-desplegada">
     <a href="./portfolio.html" class="home__portfolio">Portfolio</a>
