@@ -14,6 +14,8 @@ function main() {
   const componentFooter = document.querySelector(".component-footer");
   componenteFooter(componentFooter);
 
+  document.querySelector(".home__tittle").innerHTML = "Mis servicios";
+
   const botonAbreVentanaEl = document.querySelector(".abre-ventana");
   const botonCierraVentanaEl = document.querySelector(
     ".ventana__cierra-ventana"

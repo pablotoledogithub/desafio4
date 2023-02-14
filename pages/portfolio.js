@@ -54,6 +54,11 @@ function main() {
     "home__seccion-tres-title"
   )[0].firstElementChild.innerHTML = "trabajos";
 
+  // document.getElementsByClassName(
+  //   "home__tittle"
+  // )[0].firstElementChild.innerHTML = "Mis";
+  document.querySelector(".home__tittle").innerHTML = "Mis trabajos";
+
   const botonAbreVentanaEl = document.querySelector(".abre-ventana");
   const botonCierraVentanaEl = document.querySelector(
     ".ventana__cierra-ventana"
